@@ -75,7 +75,7 @@ export default function Moviedetail() {
       {!isLoading && !error && (
         <div>
           <div
-            class="bg-blue-50 min-h-screen flex items-center justify-center px-4"
+            class="bg-blue-50 min-h-screen flex items-center justify-center p-4"
             style={{
               backgroundImage: `url(${backdrop_img})`,
               backgroundSize: "cover",
