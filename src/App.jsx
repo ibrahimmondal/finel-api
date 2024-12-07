@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router";
 import Header from "./Component/Header";
 
-import Moviefeed from "./Component/MovieFeed";
+import Moviefeed from "./Component/Moviefeed";
 import Moviedetail from "./Component/Moviedetail";
 function App() {
   return (
