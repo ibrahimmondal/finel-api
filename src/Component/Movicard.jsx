@@ -6,7 +6,10 @@ function Movicard({ item }) {
 
   const MOVIES_IMG = `https://image.tmdb.org/t/p/w500/${poster_path}`;
   return (
-    <Link to={`/movie/${id}`} className="group relative bg-black mb-5 px-4 h-[500px]">
+    <Link
+      to={`/movie/${id}`}
+      className="group relative bg-black mb-5 px-4 h-[500px]"
+    >
       <img
         alt=""
         src={MOVIES_IMG}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Movicard from "./Movicard"
-import Loader from "./Loader"
+import Movicard from "./Movicard";
+import Loader from "./Loader";
 
 export default function Moviefeed() {
   const API = `https://api.themoviedb.org/3/search/movie?query=`;
@@ -88,7 +88,7 @@ export default function Moviefeed() {
         </div>
       </header>
       <section className="max-w-[1200px] mx-auto mt-10">
-        {isLoading && <Loader/>}
+        {isLoading && <Loader />}
         {!isLoading && !error && movies.length !== 0 && (
           <div className="grid grid-cols-1 gap-5 px-4 md:grid-cols-3 lg:grid-cols-3">
             {movies.map((item) => (
@@ -101,5 +101,3 @@ export default function Moviefeed() {
     </>
   );
 }
-
-
