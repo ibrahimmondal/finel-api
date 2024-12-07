@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Movicard from "./Movicard"
 import Loader from "./Loader"
 
-export default function App() {
+export default function Moviefeed() {
   const API = `https://api.themoviedb.org/3/search/movie?query=`;
   const API_key = "&api_key=4118874897d8c40a6a13be2a3bb5bb03";
 
